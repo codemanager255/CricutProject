@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ShapesGridView: View {
+struct ShapesGridView1: View {
     @StateObject private var viewModel = ShapesViewModel(networkService: WebApiManager())
     @State private var shapes: [String] = []
     @State private var navigateToEditCircles = false
