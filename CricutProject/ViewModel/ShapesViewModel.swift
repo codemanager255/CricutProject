@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ViewState {
+enum ViewState1 {
     case loading
     case load([ShapeButton])
     case error(String)
