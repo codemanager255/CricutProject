@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ShapeModel1: Decodable {
+struct ShapeModel: Decodable {
     let buttons: [ShapeButton]
 }
 
